@@ -1,0 +1,9 @@
+# Tell GitHub Linguist this is a Vite + React + TypeScript project
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.html linguist-language=TypeScript
+*.css linguist-language=TypeScript
+vite.config.* linguist-language=TypeScript
+tsconfig.* linguist-language=TypeScript

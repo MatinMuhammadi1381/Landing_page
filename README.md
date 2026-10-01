@@ -1,5 +1,7 @@
 # EdgeAI Landing Page
 
+**English** · [فارسی](#فارسی)
+
 A modern AI SaaS landing page built with React, TypeScript, Tailwind CSS, and Vite. The interface is designed to introduce an AI business platform through a polished, responsive, and conversion-oriented single-page experience.
 
 ## Sections
@@ -27,11 +29,13 @@ A modern AI SaaS landing page built with React, TypeScript, Tailwind CSS, and Vi
 ~~~bash
 git clone https://github.com/MatinMuhammadi1381/Landing_page.git
 cd Landing_page
-npm install
+npm ci
 npm run dev
 ~~~
 
 Open the local URL shown by Vite, usually http://localhost:5173.
+
+On Windows, run `INSTALL-DEPENDENCIES.bat` to install the dependencies from the committed lockfile.
 
 ## Available Scripts
 
@@ -60,3 +64,32 @@ src/
 ## Scope
 
 This repository is a front-end landing page. The forms, pricing buttons, and marketing content are presentation components and are not connected to a production SaaS backend or billing system.
+
+---
+
+## فارسی
+
+یک صفحهٔ فرود واکنش‌گرا برای معرفی یک پلتفرم هوش مصنوعی با نام EdgeAI. این نمونه با React، TypeScript، Tailwind CSS 4 و Vite ساخته شده است.
+
+### بخش‌ها
+
+- معرفی اصلی و دکمهٔ اقدام، لوگوهای برندها و خدمات هوش مصنوعی
+- بخش‌های معرفی، قیمت‌گذاری و دعوت به اقدام
+- پیمایش واکنش‌گرا و وضعیت پوسته با Zustand
+
+### فناوری‌ها و راه‌اندازی
+
+React 19، TypeScript، Vite، Tailwind CSS 4، Zustand و ESLint. به Node.js و npm نیاز دارید:
+
+~~~bash
+git clone https://github.com/MatinMuhammadi1381/Landing_page.git
+cd Landing_page
+npm ci
+npm run dev
+~~~
+
+در ویندوز، `INSTALL-DEPENDENCIES.bat` را اجرا کنید. نشانی محلی معمولاً `http://localhost:5173` است. `npm run build` بررسی TypeScript و ساخت نسخهٔ تولید را انجام می‌دهد؛ برای پیش‌نمایش از `npm run preview` استفاده کنید.
+
+### محدوده
+
+این مخزن نمونهٔ رابط کاربری است؛ فرم‌ها، قیمت‌ها و دکمه‌ها به سرویس واقعی هوش مصنوعی، حساب کاربری یا پرداخت متصل نیستند.

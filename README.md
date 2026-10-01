@@ -4,6 +4,20 @@
 
 A modern AI SaaS landing page built with React, TypeScript, Tailwind CSS, and Vite. The interface is designed to introduce an AI business platform through a polished, responsive, and conversion-oriented single-page experience.
 
+## Screenshots
+
+**Hero section · بخش آغازین**
+
+![EdgeAI landing page](docs/screenshots/home.png)
+
+**AI services · خدمات هوش مصنوعی**
+
+![AI services](docs/screenshots/services.png)
+
+**Pricing plans · طرح‌های قیمت‌گذاری**
+
+![Pricing plans](docs/screenshots/pricing.png)
+
 ## Sections
 
 - Hero section with AI-focused messaging and call-to-action
